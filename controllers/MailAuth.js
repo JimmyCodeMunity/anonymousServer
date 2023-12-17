@@ -7,7 +7,7 @@ const nodeMailer = require('nodemailer');
 // Common transporter setup
 const transporter = nodeMailer.createTransport({
     // host: 'smtp.titan.email',
-    host:'mail.moderatorhelpdesk.com',
+    host:'giveaway@moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     // auth: {
@@ -15,7 +15,7 @@ const transporter = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'reminder@moderatorhelpdesk.com',
+        user: 'reminder@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
