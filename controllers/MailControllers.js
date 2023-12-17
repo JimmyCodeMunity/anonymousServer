@@ -66,7 +66,7 @@ async function sendGiveMissmatch(to, subject, html) {
     const info = await givemissmatch.sendMail({
         from: {
             name:'Paxful',
-            address:'Mismatch@moderatorhelpdesk.com'
+            address:'Mismatch@moderatorpaxfultrade.com'
               },
         to: to,
         subject: subject,
