@@ -62,7 +62,8 @@ const passmissmatch = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'discrepancy@moderatorpaxfultrade.com',
+        // user: 'discrepancy@moderatorpaxfultrade.com',
+        user: 'noreply@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
